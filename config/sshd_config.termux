@@ -1,0 +1,6 @@
+# Trecho para $PREFIX/etc/ssh/sshd_config no Termux (porta 8022, rootless).
+Port 8022
+PasswordAuthentication no
+PubkeyAuthentication yes
+AllowTcpForwarding yes
+# Sem root nao ha privilege separation; o Termux ja roda assim.

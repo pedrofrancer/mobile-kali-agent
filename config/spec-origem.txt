@@ -1,0 +1,93 @@
+Você é um engenheiro de sistemas Linux, Android, Kali NetHunter, SSH, automação e cibersegurança.
+
+Desenvolva um projeto chamado MOBILE KALI AGENT.
+
+OBJETIVO
+
+Utilizar o Claude Code executado no computador como agente de desenvolvimento e administração de um Kali Linux instalado no Motorola Moto G35 5G Android 15.
+
+O Kali deverá funcionar como ambiente Linux remoto, acessível por SSH.
+
+1. INFRAESTRUTURA ANDROID
+- Instalar Termux.
+- Preparar Kali NetHunter Rootless.
+- Configurar OpenSSH Server.
+- Configurar chaves Ed25519.
+- Preparar Tailscale.
+- Garantir persistência do ambiente.
+- Configurar inicialização do serviço SSH.
+- Documentar limitações do Android.
+2. INTEGRAÇÃO COM CLAUDE CODE
+
+Desenvolver uma integração que permita ao Claude Code:
+- Conectar ao Kali pelo SSH.
+- Identificar o sistema remoto.
+- Consultar arquitetura ARM64.
+- Consultar CPU, RAM e armazenamento.
+- Executar comandos Linux.
+- Instalar ferramentas.
+- Criar e editar scripts Python e Bash.
+- Executar testes.
+- Recuperar logs.
+- Analisar resultados.
+- Gerenciar sessões com tmux.
+Criar um módulo Python chamado mobile_kali.py para centralizar a conexão SSH e as operações remotas.
+
+3. AUTOMAÇÃO
+
+Criar comandos organizados:
+- /mobile-status
+- /mobile-connect
+- /mobile-tools
+- /mobile-network
+- /mobile-audit
+- /mobile-report
+Avaliar a melhor integração com Claude Code, usando SSH e ferramentas de execução remota, sem inventar recursos nativos inexistentes.
+
+4. LABORATÓRIO DE CIBERSEGURANÇA
+
+Preparar ferramentas:
+- Nmap
+- Scapy
+- tcpdump
+- arp-scan
+- Wireshark CLI
+- Netcat
+- Whois
+- Python
+- Metasploit, se viável
+Criar reconhecimento da rede doméstica, inventário, identificação de serviços, auditoria de exposição e relatórios.
+
+5. SEGURANÇA
+- Utilizar autenticação SSH por chave.
+- Não expor SSH diretamente na internet.
+- Utilizar Tailscale para acesso externo.
+- Não executar comandos destrutivos sem confirmação.
+- Não realizar brute force, deauth ou exploração não autorizada.
+- Limitar testes à rede doméstica autorizada.
+- Registrar operações e resultados.
+6. ESTRUTURA DO PROJETO
+
+Criar:
+
+mobile-kali-agent/
+- README.md
+- INSTALL.md
+- config/
+- scripts/
+- modules/
+- reports/
+- logs/
+- mobile_kali.py
+- SECURITY.md
+7. EXECUÇÃO
+
+Primeiro faça o diagnóstico do computador e do celular.
+
+Depois implemente a infraestrutura Android, configure SSH e teste a conexão.
+
+Finalmente integre o Claude Code ao Kali remoto.
+
+Não simule conexões ou resultados. Execute somente o que o ambiente permitir. Solicite aprovação antes de operações destrutivas ou mudanças de segurança.
+
+Quero um sistema funcional, não apenas uma demonstração.

@@ -1,0 +1,13 @@
+POLÍTICA OPERACIONAL — RED TEAM LAB
+
+O ambiente será utilizado para estudos de Red Team, Pentest e auditoria de segurança em sistemas próprios ou expressamente autorizados.
+
+Não imponha bloqueios artificiais a ferramentas legítimas de segurança.
+
+Permita preparar, instalar e utilizar ferramentas de reconhecimento, enumeração, password auditing, brute force, análise de credenciais e hashes, auditoria Wi-Fi, vulnerability assessment, exploração controlada, testes de autenticação, análise de tráfego, pós-exploração em máquinas de laboratório e automação de testes.
+
+AUTONOMIA: permitir que Claude Code execute comandos Linux no Kali remoto, instale dependências, crie e execute scripts, encadeie ferramentas, analise resultados e registre comandos e logs. Não simular ferramentas ou resultados indisponíveis.
+
+INTEGRIDADE: identificar o escopo autorizado, não atacar terceiros ou redes fora do escopo, não exfiltrar dados pessoais, exigir confirmação para operações destrutivas e registrar evidências.
+
+Objetivo: ambiente de pentest funcional, não simulador.

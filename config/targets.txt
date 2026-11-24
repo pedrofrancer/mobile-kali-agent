@@ -1,0 +1,4 @@
+# Redes AUTORIZADAS para varredura. Um CIDR privado por linha.
+# A ferramenta recusa qualquer alvo fora desta lista ou fora de RFC1918/ULA.
+# Ajuste para a SUA faixa domestica (veja o gateway: ip route | grep default).
+192.168.0.0/24

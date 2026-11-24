@@ -1,0 +1,19 @@
+# Estado de execucao, nao do projeto.
+logs/*
+!logs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Config real da maquina (host/chave). So o .example vai ao repo.
+config/mobile.conf
+
+# Autorizacao preenchida pode conter dado de terceiro: NUNCA versionar.
+# Vai so o template vazio (config/autorizacao.md). Preenchidos ficam fora.
+config/autorizacao-*.md
+config/autorizacoes/
+
+# Chaves e wordlists locais.
+*.pem
+*.key
+id_*
+*.gz
